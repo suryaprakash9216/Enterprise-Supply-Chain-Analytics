@@ -9,278 +9,280 @@
 
 > **End-to-End Supply Chain Analytics Project using SQL, Python, Power BI, Microsoft Fabric, and Microsoft Azure.**
 
----
+Project Overview
 
-## 📌 Project Overview
+This project analyses enterprise supply chain operations to understand sales performance, inventory management, customer behaviour, shipping performance, and business operations using SQL, Python, Power BI, Microsoft Fabric, and Microsoft Azure.
 
-Enterprise Supply Chain Analytics is an end-to-end Business Intelligence project that demonstrates the complete analytics lifecycle—from raw business data to cloud-based reporting.
-
-The project integrates SQL, Python, Power BI, Microsoft Fabric, and Microsoft Azure to build a scalable analytics solution for business decision-making.
-
-The solution covers data extraction, data cleaning, exploratory data analysis, data modelling, SQL analytics, forecasting, cloud data integration, ETL pipelines, and interactive dashboard development.
+The project follows a complete analytics workflow, including business understanding, data architecture design, data ingestion, data cleaning, exploratory data analysis (EDA), Star Schema implementation, SQL analytics, KPI development, statistical analysis, forecasting, cloud ETL pipelines, Microsoft Fabric implementation, and interactive Power BI dashboard development.
 
 ---
 
-🎯 Business Objectives
+Business Objectives
 
-- Analyse sales, profit, customer, inventory, logistics, and operational performance.
-- Design a scalable Star Schema data warehouse.
-- Build SQL queries to generate business KPIs.
-- Perform exploratory data analysis and forecasting using Python.
-- Develop interactive Power BI dashboards.
-- Implement Lakehouse and Warehouse architecture in Microsoft Fabric.
-- Build cloud ETL pipelines using Azure Data Factory.
-- Store datasets securely in Azure Blob Storage.
-- Monitor successful pipeline execution.
-
----
-
-🛠 Tech Stack
-
-- Database: MySQL
-- Programming: Python
-- Query Language: SQL
-- Visualization: Power BI
-- Cloud Analytics: Microsoft Fabric
-- Cloud Platform: Microsoft Azure
-- ETL: Azure Data Factory
-- Notebook: PySpark
-- Libraries: Pandas, NumPy, Matplotlib, Scikit-learn
-- Version Control: Git & GitHub
+- Analyse sales, revenue, profit, and operational performance.
+- Monitor customer behaviour and product performance.
+- Evaluate inventory and shipping efficiency.
+- Build a scalable Star Schema data warehouse.
+- Develop SQL-based KPI reporting and business analytics.
+- Perform statistical analysis and forecasting.
+- Build interactive Power BI dashboards for business reporting.
+- Implement Microsoft Fabric for modern analytics workflows.
+- Develop cloud ETL pipelines using Microsoft Azure.
 
 ---
 
-📂 Project Workflow
+Dataset Summary
 
-Business Understanding
+The dataset contains information related to:
 
-⬇
-
-Data Understanding
-
-⬇
-
-Data Cleaning & Transformation (Python)
-
-⬇
-
-Exploratory Data Analysis (EDA)
-
-⬇
-
-Star Schema Data Warehouse
-
-⬇
-
-SQL Analytics & KPI Development
-
-⬇
-
-Forecasting & Predictive Analytics
-
-⬇
-
-Power BI Dashboard Development
-
-⬇
-
-Microsoft Fabric (Lakehouse • Warehouse • PySpark • SQL Endpoint)
-
-⬇
-
-Microsoft Azure (Blob Storage • Azure Data Factory • Cloud ETL Pipeline)
-
-⬇
-
-Pipeline Monitoring
+- Orders
+- Customers
+- Products
+- Locations
+- Shipping
+- Sales
+- Revenue
+- Inventory
+- Supply Chain Operations
 
 ---
 
-⭐ Project Features
+Tools & Technologies
 
-- End-to-End Analytics Solution
-- Data Cleaning & Transformation
-- Exploratory Data Analysis
-- Star Schema Data Warehouse
-- SQL Analytics
-- KPI Reporting
-- Forecasting & Predictive Analytics
-- Interactive Power BI Dashboard
-- Microsoft Fabric Lakehouse
-- Microsoft Fabric Warehouse
-- PySpark Notebook
+- SQL (MySQL)
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Power BI
+- DAX
+- Microsoft Fabric
+- Microsoft Azure
 - Azure Blob Storage
-- Azure Data Factory Pipeline
-- Cloud Pipeline Monitoring
+- Azure Data Factory
+- Power Query
+- Excel
+- Git & GitHub
 
 ---
 
-📊 Power BI Dashboard
+Project Workflow
 
-The dashboard consists of six interactive pages:
+1. Business Understanding
 
-- 📈 Executive Overview
-- 🚚 Supply Chain Overview
-- 📦 Inventory Overview
-- 🚛 Logistics Overview
-- 👥 Customer Overview
-- ⚙️ Operations Overview
-
-Dashboard Highlights
-
-- Revenue Analysis
-- Profit Analysis
-- Customer Segmentation
-- Regional Performance
-- Product Performance
-- Inventory Analysis
-- Shipping Performance
-- Logistics KPIs
-- Executive KPIs
-- Interactive Filters & Drill-downs
+Defined business objectives, identified key stakeholders, and established business KPIs to evaluate sales, logistics, inventory, and customer performance.
 
 ---
 
-🗄 Data Warehouse
+2. Data Understanding
 
-The project uses a Star Schema consisting of:
+Explored the dataset, analysed relationships between entities, and understood the structure of operational and transactional data.
 
-Fact Table
+---
+
+3. Data Architecture Design
+
+Designed a dimensional data model using a Star Schema consisting of one fact table and multiple dimension tables to support analytical reporting.
+
+---
+
+4. Data Ingestion
+
+Imported raw datasets into MySQL and prepared the data for transformation and analysis.
+
+---
+
+5. Data Cleaning & Transformation
+
+Performed data cleaning using Python by handling missing values, correcting inconsistencies, validating records, transforming columns, and improving data quality.
+
+---
+
+6. Data Warehouse Implementation
+
+Built a Star Schema consisting of:
 
 - Fact Orders
-
-Dimension Tables
-
 - Dim Customer
 - Dim Product
 - Dim Date
 - Dim Shipping
 - Dim Location
 
----
-
-☁ Microsoft Fabric Implementation
-
-Implemented components include:
-
-- Lakehouse
-- Warehouse
-- PySpark Notebook
-- SQL Analytics Endpoint
-- Semantic Model
-- Power BI Integration
+to support efficient analytical queries and reporting.
 
 ---
 
-☁ Microsoft Azure Implementation
+7. SQL Analysis & KPI Development
 
-Implemented Azure services include:
-
-- Azure Blob Storage
-- Azure Data Factory
-- Cloud ETL Pipeline
-- Pipeline Monitoring
-- Cloud Data Storage
-- Successful Pipeline Execution
+Developed SQL queries to analyse business performance and calculate key metrics including revenue, profit, sales trends, customer performance, shipping performance, and operational KPIs.
 
 ---
 
-📈 Key KPIs
+8. Advanced SQL Analysis
+
+Implemented advanced SQL concepts including:
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Aggregate Analysis
+- Business Performance Reporting
+
+---
+
+9. Statistical Analysis
+
+Performed statistical analysis to understand relationships between variables, identify trends, and support business decision-making.
+
+---
+
+10. Forecasting & Predictive Analytics
+
+Developed forecasting models using Python to analyse future business trends and support demand planning.
+
+---
+
+11. Dashboard Development
+
+Built an interactive Power BI dashboard to monitor:
+
+- Executive Performance
+- Supply Chain Performance
+- Inventory Analytics
+- Logistics Analytics
+- Customer Analytics
+- Operations Analytics
+
+---
+
+12. Microsoft Fabric
+
+Implemented Microsoft Fabric by creating a Lakehouse, loading datasets, building a Warehouse, executing SQL queries, using PySpark notebooks, and integrating Semantic Models for analytics and reporting.
+
+---
+
+13. Microsoft Azure
+
+Uploaded datasets to Azure Blob Storage and created an Azure Data Factory pipeline to automate cloud-based data movement. Successfully executed and monitored the ETL pipeline to validate cloud data integration.
+
+---
+
+Key KPIs
 
 - Total Revenue
 - Total Profit
 - Profit Margin
 - Total Orders
 - Average Order Value
-- Total Shipments
-- Shipping Delay
-- Delivery Performance
-- Customer Segmentation
-- Product Performance
 - Inventory Performance
+- Shipping Performance
+- Delivery Performance
+- Customer Performance
+- Product Performance
 - Regional Sales
+- Operational Performance
 
 ---
 
-📸 Project Screenshots
+Dashboard Screenshots
 
-Power BI Dashboard
+Executive Dashboard
 
-(Add Executive Overview)
+(Add Image)
 
-(Add Supply Chain Overview)
+Supply Chain Dashboard
 
-(Add Inventory Overview)
+(Add Image)
 
-(Add Logistics Overview)
+Inventory Dashboard
 
-(Add Customer Overview)
+(Add Image)
 
-(Add Operations Overview)
+Logistics Dashboard
 
-Data Model
+(Add Image)
 
-(Add Star Schema Screenshot)
+Customer Dashboard
+
+(Add Image)
+
+Operations Dashboard
+
+(Add Image)
+
+---
 
 Microsoft Fabric
 
-(Add Lakehouse Screenshot)
+- Lakehouse
+- Warehouse
+- SQL Endpoint
+- PySpark Notebook
+- Semantic Model
 
-(Add Warehouse Screenshot)
+(Add Screenshots)
 
-(Add SQL Endpoint Screenshot)
-
-(Add PySpark Notebook Screenshot)
+---
 
 Microsoft Azure
 
-(Add Azure Blob Storage Screenshot)
-
-(Add Azure Data Factory Pipeline Screenshot)
-
-(Add Successful Pipeline Run Screenshot)
-
----
-
-📁 Repository Structure
-
-- Data
-- SQL
-- Python
-- Power BI
-- Microsoft Fabric
-- Azure
-- Images
-- README.md
-
----
-
-🚀 Skills Demonstrated
-
-- SQL
-- Python
-- Power BI
-- Microsoft Fabric
-- Microsoft Azure
+- Azure Blob Storage
 - Azure Data Factory
-- Data Cleaning
-- ETL Pipelines
-- Data Warehousing
-- Star Schema Modelling
-- Business Intelligence
-- Dashboard Development
-- KPI Reporting
-- Forecasting
-- Exploratory Data Analysis
-- Cloud Data Integration
-- Git & GitHub
+- Successful Pipeline Execution
+
+(Add Screenshots)
 
 ---
 
-👨‍💻 Author
+Repository Structure
 
-Suryaprakash Reddy Muddireddy
+SQL Scripts
 
-MSc Data Analytics
+- 01_Data_Understanding.sql
+- 02_SQL_Analysis.sql
+- 03_KPI_Development.sql
+- 04_Star_Schema.sql
+- 05_Advanced_SQL.sql
 
-SQL • Python • Power BI • Microsoft Fabric • Microsoft Azure • Business Intelligence • Data Analytics
+Python
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Statistical Analysis
+- Forecasting
+
+Power BI
+
+- Enterprise_Supply_Chain_Analytics.pbix
+
+Microsoft Fabric
+
+- Lakehouse
+- Warehouse
+- PySpark Notebook
+- SQL Endpoint
+
+Microsoft Azure
+
+- Azure Blob Storage
+- Azure Data Factory
+- Pipeline Monitoring
+
+---
+
+Business Value
+
+- Developed a scalable analytics solution for enterprise supply chain operations.
+- Designed a Star Schema data warehouse for analytical reporting.
+- Automated cloud data movement using Azure Data Factory.
+- Built Microsoft Fabric analytics workflows for modern cloud analytics.
+- Developed SQL-based KPI reporting for operational decision-making.
+- Created interactive Power BI dashboards for executive reporting.
+- Applied forecasting techniques to support business planning and trend analysis.
+
+---
+
+Skills Demonstrated
+
+SQL | Python | Power BI | Microsoft Fabric | Microsoft Azure | Azure Data Factory | Azure Blob Storage | ETL | Data Warehousing | Star Schema | Data Cleaning | Data Transformation | Exploratory Data Analysis (EDA) | SQL Analytics | KPI Development | Statistical Analysis | Forecasting | Business Intelligence | Dashboard Development | Data Visualisation
